@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 html { 
-    background: linear-gradient(230deg, rgba(206,73,191,1) 0%, rgba(241,144,183,1) 100%) no-repeat center center fixed; 
+    background: linear-gradient(230deg, #BE3455 0%, #EDCDC2 100%) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,7 +10,7 @@ html {
 
 
 body{
-  font-family: 'Lobster', cursive;
+  font-family: 'Birthstone', cursive;
 
   display: flex;
   flex-direction: column;
@@ -24,9 +24,10 @@ h1{
 	margin-top: 10px;
 	margin-bottom: 0;
   text-align:center;
-  font-size:100px;
+  font-size:110px;
   border-radius:30px;
   padding:8px 15px;
+  font-weight: bold;
 }
 h2{
   margin:10px auto;
@@ -50,7 +51,7 @@ h2{
     font-size: 72px;
 }
 .timer div span{
-    font-size: 24px;
+    font-size: 40px;
     color: #fff;
 }
 @media only screen and (max-width: 590px) {
@@ -94,7 +95,7 @@ h2{
   }
 
   p{
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     text-align: center;
     position: fixed;
@@ -107,6 +108,13 @@ h2{
     text-decoration: none;
     color: #A63EC5;
   }
+
+
+
+
+
+
+
 
 
 
